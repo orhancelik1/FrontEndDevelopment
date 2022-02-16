@@ -1,16 +1,22 @@
-*{
-  margin: 0%;
-  padding: 0%;
-  box-sizing:border-box;
-}
-.banner{
-  width: 50vw;
-  height: 50vh;
-  background: red;
+.buttons {
+  margin: 30px;
 }
 
-.flag{
-  width: 100vw;
-  height: 100vh;
-  background:blue;
+a{
+  background: rgb(50, 96, 150);
+  text-decoration: none;
+  padding: 1rem 1.3rem;
+  color: #222;
+  text-transform: capitalize;
+  cursor:grab;
+  margin: 0 20px;
 }
+#one{
+  border: 0.2rem solid #222;
+}
+#two{
+  outline: 0.2rem solid #222;
+  outline-offset: 0.2rem;
+}
+
+/*6 35*/
