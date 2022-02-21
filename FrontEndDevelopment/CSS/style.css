@@ -1,22 +1,26 @@
-.buttons {
-  margin: 30px;
+body {
+  background: yellow;
 }
-
-a{
-  background: rgb(50, 96, 150);
-  text-decoration: none;
-  padding: 1rem 1.3rem;
-  color: #222;
+.banner {
+  background: blue;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
   text-transform: capitalize;
-  cursor:grab;
-  margin: 0 20px;
-}
-#one{
-  border: 0.2rem solid #222;
-}
-#two{
-  outline: 0.2rem solid #222;
-  outline-offset: 0.2rem;
+  font-size: 40px;
 }
 
-/*6 35*/
+@media screen and (min-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
