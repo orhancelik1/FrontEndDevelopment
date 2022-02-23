@@ -1,26 +1,18 @@
-body {
-  background: yellow;
-}
-.banner {
-  background: blue;
-}
-h1 {
-  color: white;
-  text-align: center;
-  text-decoration: underline;
-  text-transform: capitalize;
-  font-size: 40px;
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
 }
 
-@media screen and (min-width: 576px) {
-  body {
-    background: red;
-  }
-  .banner {
-    background: yellow;
-  }
-  h1 {
-    color: black;
-    font-size: 60px;
-  }
+.one {
+  background: red;
+  /* transform: translateX(50%); */
 }
+.two {
+  background: green;
+}
+.three {
+  background: blue;
+  transform: translateX(50%);
+}
+/* 9 57 */
